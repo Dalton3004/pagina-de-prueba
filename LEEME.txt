@@ -8,7 +8,11 @@ Para jugar ONLINE entre todos:
   2. Publicá en Railway (recomendado), Glitch o Fly.io
   3. Compartí la URL https que te den
 
-En tu PC (solo local):
+En tu PC (Windows): doble clic en JUGAR.bat (necesita Node.js).
+NO abras index.html con doble clic: el juego usa modulos y rutas que
+solo funcionan a traves del servidor (http://127.0.0.1:3001).
+
+En tu PC (solo local, a mano):
   npm install
   npm start
   → http://127.0.0.1:3001
