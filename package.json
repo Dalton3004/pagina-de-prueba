@@ -27,7 +27,7 @@
     "test:f6": "node --test tests/perfil.test.mjs tests/replay.test.mjs tests/admin_http.test.mjs"
   },
   "engines": {
-    "node": ">=18"
+    "node": "20.x"
   },
   "dependencies": {
     "compression": "^1.8.2",
